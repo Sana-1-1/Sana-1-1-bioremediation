@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bioremediation Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Bioremediation Information Portal</h1>
+        <nav>
+            <u><a href="#methods">Methods</a></u>
+            <u><a href="#resources">Resources</a></u>
+            <u><a href="#statistics">Statistics</a></u>
+            <u><a href="#quiz">Quiz</a></u>
+            <u><a href="#faq">FAQ</a></u>
+        </nav>
+    </header>
+    
+    <section id="intro">
+        <h2>Welcome!!!</h2>
+
+
+        <img src ="https://media.springernature.com/lw1200/springer-static/image/art%3A10.1007%2Fs44371-024-00038-2/MediaObjects/44371_2024_38_Fig1_HTML.png" width="200" height="100" align = "right">
+
+
+
+
+        <p><b>This portal provides comprehensive information on bioremediation techniques, case studies,</b></p>
+        <p><b> and interactive learning tools to understand environmental cleanup methods.</b></p>
+        
+    </section>
+    
+    <section id="methods">
+        <h2>Bioremediation Methods</h2>
+        <ul>
+            <li><strong>Microbial Degradation:</strong> Uses bacteria and fungi to break down pollutants.</li>
+            <li><strong>Phytoremediation:</strong> Uses plants to absorb or contain contaminants.</li>
+            <li><strong>Mycoremediation:</strong> Uses fungi to degrade toxic substances.</li>
+        </ul>
+    </section>
+
+    <section id="resources">
+        <h2>Resources</h2>
+        <ul>
+            <li><a href="https://www.sciencedirect.com/topics/earth-and-planetary-sciences/bioremediation" target="_blank">ScienceDirect on Bioremediation</a></li>
+            <li><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7132312/" target="_blank">Microbial Degradation of Pollutants</a></li>
+            <li><a href="https://www.epa.gov/bioremediation/success-stories" target="_blank">EPA Case Studies</a></li>
+            <li><a href="https://www.researchgate.net/publication/342617389_Phytoremediation_of_Heavy_Metals" target="_blank">Phytoremediation Research</a></li>
+            <li><a href="https://www.mdpi.com/2076-2607/9/3/635" target="_blank">Mycoremediation Studies</a></li>
+            
+        </ul>
+    </section>
+    <section id="modules">
+        <h2>Modules</h2>
+        <ul>
+            <li><a href="https://colab.research.google.com/drive/1GczY3d_RuY7aJDDq9aCkU7U93MKSdDik#scrollTo=Htlit-xdSDy4" target="_blank">Bioremediation Advisor</a></li>
+            <li><a href="https://colab.research.google.com/drive/18g3hNvE5y2YKScSx4y6HLJ3rqR6CNaVI#scrollTo=YDnj3ObFYFPy" target="_blank">Pollutant Breakdown Simulation Tool </a></li>
+            
+        </ul>
+    </section>
+
+    <section id="statistics">
+        <h2>Current Statistics</h2>
+        <p><strong>Global Bioremediation Market:</strong> Expected to reach $186 billion by 2027.</p>
+        <p><strong>Oil Spill Cleanup Efficiency (2023):</strong> Over 65% cleaned using bioremediation.</p>
+        <p><strong>Bioremediation Case Studies:</strong> 120+ successful projects documented by the EPA.</p>
+    </section>
+
+    <section id="quiz">
+        <h2>Quiz</h2>
+        <form id="quizForm">
+            <div class="question">
+                <p>1. What is bioremediation?</p>
+                <input type="radio" name="q1" value="a"> A type of pollution<br>
+                <input type="radio" name="q1" value="b"> Using microbes to clean pollutants<br>
+                <input type="radio" name="q1" value="c"> A plant-based diet<br>
+            </div>
+            <div class="question">
+                <p>2. What do fungi do in mycoremediation?</p>
+                <input type="radio" name="q2" value="a"> Create new pollutants<br>
+                <input type="radio" name="q2" value="b"> Degrade toxic substances<br>
+                <input type="radio" name="q2" value="c"> Filter clean water<br>
+            </div>
+            <div class="question">
+                <p>3. What is a benefit of phytoremediation?</p>
+                <input type="radio" name="q3" value="a"> Slows plant growth<br>
+                <input type="radio" name="q3" value="b"> Uses plants to absorb contaminants<br>
+                <input type="radio" name="q3" value="c"> Increases emissions<br>
+            </div>
+            <div class="question">
+                <p>4. Which organization provides case studies?</p>
+                <input type="radio" name="q4" value="a"> NASA<br>
+                <input type="radio" name="q4" value="b"> WHO<br>
+                <input type="radio" name="q4" value="c"> EPA<br>
+            </div>
+            <button type="button" onclick="checkQuiz()">Submit</button>
+            <p id="quizResult"></p>
+        </form>
+    </section>
+
+    <section id="faq">
+        <h2>FAQs</h2>
+        <details>
+            <summary>What is bioremediation?</summary>
+            <p>It's the use of microorganisms to break down environmental pollutants into less harmful forms.</p>
+        </details>
+        <details>
+            <summary>Is bioremediation safe?</summary>
+            <p>Yes, it's a natural process and generally safe when managed correctly.</p>
+        </details>
+        <details>
+            <summary>Where is bioremediation used?</summary>
+            <p>It's used in cleaning up oil spills, industrial sites, and areas contaminated with heavy metals or pesticides.</p>
+        </details>
+    </section>
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
